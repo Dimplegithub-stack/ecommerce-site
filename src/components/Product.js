@@ -16,7 +16,7 @@ export default class Product extends Component {
                     <ProductDataConsumer>
                         {
                             value => (
-                                <div className="img-container p-5" onClick={() => value.handleDetail(id)}>
+                                <div className="<img-co></img-co>ntainer p-5" onClick={() => value.handleDetail(id)}>
                                     <Link to="/details">
                                         <img src={img} alt="product" className="card-img-top" />
                                     </Link>
@@ -99,6 +99,7 @@ const ProductWrapper = styled.div `
 }
 .img-container:hover .card-btn{
     transform:translate(0,0);
+    
 }
 `;
 
