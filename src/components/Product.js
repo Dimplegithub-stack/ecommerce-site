@@ -99,7 +99,6 @@ const ProductWrapper = styled.div `
 }
 .img-container:hover .card-btn{
     transform:translate(0,0);
-    
 }
 `;
 
