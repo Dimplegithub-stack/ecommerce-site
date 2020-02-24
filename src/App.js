@@ -14,8 +14,8 @@ function App() {
     <React-Fragment>
 
       <Switch>
-      <Route exact path="/" component={Login} />
-        <Route  path="/productlist" component={Productlist} />
+        <Route exact path="/" component={Login} />
+        <ProtectedRoute exact path="/productlist" component={Productlist} />
         <Route path="/details" component={Details} />
         <Route path="/cart" component={Cart} />
         <Route component={Default} />

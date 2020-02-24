@@ -5,3 +5,6 @@
   --mainDark:#232528;
   --mainYellow:#ffa400;
 }
+body{
+  font-family:'Oswald' !important; 
+}
